@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="stylesignup.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Login Form Using HTML And CSS Only</title>
+</head>
+<body>
+	<div class="container" id="container">
+		<div class="form-container signup-container">
+			<form action="#">
+				<h2>Sign Up for NGO</h2>
+                <input id="name" type="text" placeholder="Name of the organization" />
+				<input id="storeid" type="number" placeholder="Visa Store ID" />
+                <input id="contact" type="number" placeholder="Contact Number" />
+				<input id="website" type="text" placeholder="Website" />
+				<input id="email" type="email" placeholder="Email" />
+				<input id="password" type="password" placeholder="Password" />
+                <input id="confirm-password" type="password" placeholder="Conform Password" />
+			
+				<select name="domains" id="domains">
+					<option id ="ph" value="" disabled selected hidden>Working Domain</option>
+					<option value="education">Education</option>
+					<option value="healthcare">Healthcare</option>
+					<option value="relief">Relief Funds</option>
+					<option value="environment">Environment</option>
+				</select>
+
+				<button type="submit">Sign Up</button>
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-right">
+					<h1>Name of the product</h1>
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
